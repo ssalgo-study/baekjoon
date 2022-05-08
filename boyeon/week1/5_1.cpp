@@ -6,6 +6,7 @@ long long sum(std::vector<int>& a) {
 	for (int i = 0; i < a.size(); i++) {
 		ans += a.at(i);
 	}
-	
+
 	return ans;
+	
 }

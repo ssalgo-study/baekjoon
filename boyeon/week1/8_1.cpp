@@ -3,6 +3,7 @@
 using namespace std;
 
 int n;
+
 bool isPrime(int x) {
 	if (x == 1) return false;
 	else if (x == 2) return true;
@@ -25,6 +26,6 @@ int main(void) {
 		if (isPrime(input))
 			cnt++;
 	}
-	
+
 	cout << cnt << endl;
 }

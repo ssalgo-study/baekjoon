@@ -19,6 +19,5 @@ int main() {
 
 	cout << minimum << " " << maximum << endl;
 	
-	return 0;
-	
+	return 0;	
 }
