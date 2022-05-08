@@ -10,5 +10,7 @@ int main(void){
     cin>>num;
     if(num!=0)
         result = factorial(num);
+
     cout<<result;
+    return 0;
 }

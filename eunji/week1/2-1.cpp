@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(void) {
-    int a,b;
+    int a, b;
     cin>>a>>b;
     if (a>b)
         cout<<">";
@@ -10,6 +10,5 @@ int main(void) {
         cout<<"<";
     else
         cout<<"==";
-    
     return 0;
 }

@@ -10,5 +10,5 @@ int main(void){
         return 0;
     }
     
-    cout<<A/(C-B) + 1;
+    cout<<A/( C-B) + 1;
 }
