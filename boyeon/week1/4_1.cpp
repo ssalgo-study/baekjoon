@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 int a[1000001];
-int minimum = 1000000; //º¸´Ù ÀÛ°Å³ª °°À½
-int maximum = -1000000; //º¸´Ù Å©°Å³ª °°À½
+int minimum = 1000000; //ï¿½ï¿½ï¿½ï¿½ ï¿½Û°Å³ï¿½ ï¿½ï¿½ï¿½ï¿½
+int maximum = -1000000; //ï¿½ï¿½ï¿½ï¿½ Å©ï¿½Å³ï¿½ ï¿½ï¿½ï¿½ï¿½
 int N;
 int main() {
 	cin >> N;
@@ -19,6 +19,6 @@ int main() {
 
 	cout << minimum << " " << maximum << endl;
 	
-
 	return 0;
+	
 }

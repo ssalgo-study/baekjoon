@@ -7,8 +7,8 @@ bool isPrime(int x) {
 	if (x == 1) return false;
 	else if (x == 2) return true;
 	else {
-		for (int i = 2; i <= sqrt(x); i++) { //¿¡¶óÅä½ºÅ×³×½ºÀÇ Ã¼ ¾Ë°í¸®Áò »ç¿ë
-			for (int j = i + i; j <= x; j += i) { //ÀÚ±â ÀÚ½ÅÀº Áö¿ìÁö ¾Ê°í, ¹è¼öºÎÅÍ Áö¿ò
+		for (int i = 2; i <= sqrt(x); i++) { //ï¿½ï¿½ï¿½ï¿½ï¿½ä½ºï¿½×³×½ï¿½ï¿½ï¿½ Ã¼ ï¿½Ë°ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½
+			for (int j = i + i; j <= x; j += i) { //ï¿½Ú±ï¿½ ï¿½Ú½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê°ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 				if (j == x) return false;
 			}
 		}
@@ -25,5 +25,6 @@ int main(void) {
 		if (isPrime(input))
 			cnt++;
 	}
+	
 	cout << cnt << endl;
 }

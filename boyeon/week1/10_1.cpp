@@ -16,7 +16,7 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		for (int j = i + 1; j < n; j++) {
 			for (int k = j + 1; k < n; k++) {
-				if (card[i] + card[j] + card[k] >= sum && card[i] + card[j] + card[k] <= m) //¿Ö sumº¸´Ù Ä¿¾ß ÇÔ ...?
+				if (card[i] + card[j] + card[k] >= sum && card[i] + card[j] + card[k] <= m) //ï¿½ï¿½ sumï¿½ï¿½ï¿½ï¿½ Ä¿ï¿½ï¿½ ï¿½ï¿½ ...?
 					sum = card[i] + card[j] + card[k];
 			}
 		}
@@ -25,4 +25,5 @@ int main() {
 	cout << sum << endl;
 
 	return 0;
+	
 }

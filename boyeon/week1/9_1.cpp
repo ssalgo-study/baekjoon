@@ -10,6 +10,7 @@ int fac(int n) {
 	}
 }
 
+
 int main() {
 	int n;
 	cin >> n;

@@ -2,12 +2,13 @@
 using namespace std;
 
 int main() {
-	char c; //ÀÔ·ÂÀº ¹®ÀÚÇü
+	char c; //ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	int result;
 
 	cin >> c;
-	result = (int)c; //charÇüÀ» int·Î º¯È¯ÇÏ¸é,,,,,, ¾Æ½ºÅ° Ãâ·Â ¿Ï
+	result = (int)c; //charï¿½ï¿½ï¿½ï¿½ intï¿½ï¿½ ï¿½ï¿½È¯ï¿½Ï¸ï¿½,,,,,, ï¿½Æ½ï¿½Å° ï¿½ï¿½ï¿½ ï¿½ï¿½
 	cout << result;
 
 	return 0;
+	
 }
