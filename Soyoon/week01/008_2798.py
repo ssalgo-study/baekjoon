@@ -8,4 +8,5 @@ for i in range(0, n-2):
             sum = arr[i]+arr[j]+arr[k]
             if sum <= m and sum > max:
                 max = sum
+
 print(max)
