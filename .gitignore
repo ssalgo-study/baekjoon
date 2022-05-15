@@ -3,3 +3,7 @@
 week1/week1.xcodeproj/project.pbxproj
 week1/week1.xcodeproj/project.xcworkspace/xcuserdata/mina.xcuserdatad/UserInterfaceState.xcuserstate
 *.plist
+*.pbxproj
+*.xcuserstate
+*.xcworkspacedata
+*.pbxproj
